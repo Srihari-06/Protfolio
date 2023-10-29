@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Righteous&family=Tektur:wght@800&family=Ysabeau+SC:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background: rgb(0,238,255);
+background: radial-gradient(circle, rgba(0,238,255,0.8304535681460083) 0%, rgba(0,0,0,1) 100%); */
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav-wrapper {
+    background: whitesmoke;
+
+    border-bottom: 2px solid black;
+    
+}
+
+.nav-wrapper .home-icon {
+    color: orange;
+    font-size: 25px;
+
+}
+
+.nav-wrapper .about-icon {
+    color: black;
+    font-size: 25px;
+
+}
+
+.nav-wrapper .portofolio-icon {
+    color: black;
+    font-size: 25px;
+
+
+}
+
+#nav-mobile {
+    font-family: 'Lilita One', cursive;
+    font-weight: 300;
+}
+
+/* preloader */
+/* #preloader{
+    background: #fff url(/images/srihari-logo.gif) no-repeat center center;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+} */
+/* preloader */
+.fslider {
+    background: url(Images/Backgourn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+    text-align: center;
+    opacity: 60%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px 2px black ;
+}
+
+.fslider .name {
+    padding: 100px;
+    font-family: 'Tektur';
+    font-weight: 800;
+    color: white;
+    opacity: 100%;
+
+}
+
+.about {
+    color: rgba(255, 255, 255, 0.87);
+    padding: 20px;
+    font-family: 'Lilita One', cursive;
+}
+
+.education {
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    font-family: 'Righteous';
+}
+
+.internship {
+    color: rgb(0, 0, 0);
+}
+
+.about-sub-para {
+    color: #000000;
+}
+
+.fskill .container {
+    border: 5px solid black;
+
+    /* background: #000000; */
+    
+
+}
+
+.skills {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-family: 'Lilita One', cursive;
+
+}
+
+.skill-color {
+    color: rgba(0, 0, 0, 0.606);
+    font-family: 'Righteous';
+}
+
+.portfolio {
+    padding: 20px;
+    font-family: 'Lilita One', cursive;
+
+}
+
+.msg {
+    padding: 20px;
+    font-family: 'Lilita One', cursive;
+
+}
+
+.msg-icon {
+    color: rgb(0, 0, 0);
+
+}
+
+.button {
+    width: 500px;
+
+}
+
+
+@media screen and (max-width:600px) {
+    .fslider {
+        background: white;
+    }
+
+    .fslider .name {
+        padding: 5px;
+        font-weight: 100;
+    }
+
+    .nav-wrapper {
+        border: none;
+    }
+
+    .education-img {
+        display: none;
+    }
+
+    .about-img {
+        display: none;
+    }
+    .brand-logo img {
+        height: 30px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .about-img {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width:1024px) {
+    .images-web {
+        height: 400px;
+        
+
+    }
+}
